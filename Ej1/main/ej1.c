@@ -9,6 +9,7 @@
 // This task will execute forever and blink LED
 // Note that internal high priority tasks still
 // execute - such as WiFi stack routines
+//toque comentario
 
 void gpioSetup(){
     io_conf.intr_type = GPIO_INTR_DISABLE;
