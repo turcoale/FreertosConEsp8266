@@ -33,7 +33,11 @@ ej1.o: /home/nbusuario11/Documentos/FreertosConEsp8266/Ej1/main/ej1.c \
  /home/nbusuario11/esp/esp-idf/components/esp8266/include/esp_system.h \
  /home/nbusuario11/esp/esp-idf/components/esp8266/include/esp_idf_version.h \
  /home/nbusuario11/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
- /home/nbusuario11/esp/esp-idf/components/spi_flash/include/spi_flash.h
+ /home/nbusuario11/esp/esp-idf/components/spi_flash/include/spi_flash.h \
+ /home/nbusuario11/esp/esp-idf/components/esp8266/include/driver/gpio.h \
+ /home/nbusuario11/esp/esp-idf/components/esp8266/include/esp8266/pin_mux_register.h \
+ /home/nbusuario11/esp/esp-idf/components/esp8266/include/esp8266/eagle_soc.h \
+ /home/nbusuario11/esp/esp-idf/components/esp8266/include/esp8266/gpio_register.h
 
 /home/nbusuario11/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -104,4 +108,12 @@ ej1.o: /home/nbusuario11/Documentos/FreertosConEsp8266/Ej1/main/ej1.c \
 /home/nbusuario11/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
 /home/nbusuario11/esp/esp-idf/components/spi_flash/include/spi_flash.h:
+
+/home/nbusuario11/esp/esp-idf/components/esp8266/include/driver/gpio.h:
+
+/home/nbusuario11/esp/esp-idf/components/esp8266/include/esp8266/pin_mux_register.h:
+
+/home/nbusuario11/esp/esp-idf/components/esp8266/include/esp8266/eagle_soc.h:
+
+/home/nbusuario11/esp/esp-idf/components/esp8266/include/esp8266/gpio_register.h:
 /home/nbusuario11/Documentos/FreertosConEsp8266/Ej1/main/./ej1.c:

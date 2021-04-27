@@ -1,0 +1,51 @@
+ Bare-metal:
+○ El MCU no utiliza recursos de un sistema operativo.
+○ Se utilizan en general tecnicas Foreground-Background y Scan loops.
+○ El comportamiento es cooperativo.
+○ La tarea del programador es más ardua.
+
+Sistema operativo:
+○ Se utiliza un sistema que gestiona la ejecución de las tareas del SE.
+○ Ofrece herramientas que resuelven problemáticas comunes en el
+desarrollo de un SE (timers, delays, colas, etc)
+
+
+Scheduler: Administrador de tareas.
+Dispatcher: Guarda el contecto de la tarea actual
+
+ Se llama contexto de ejecución el mínimo conjunto de recursos utilizados por
+una tarea con los cuales se permita reanudar su ejecución:
+
+    ○ IP (instruction pointer)
+    ○ SP (stack pointer)
+    ○ Registros del CPU
+    ○ Contenido de la pila en uso
+
+cada tarea guarda esto en su propio stack de memoria
+
+Modo de operación:
+    
+    ○ cooperativo
+    ○ Apropiativo
+    
+Estados de tareas:
+○ Blocked: La tarea está esperando un
+evento (temporal o asincrónico).
+
+○ Ready: La tarea está lista para ser
+ejecutada.
+
+○ Running: La tarea está ejecutándose
+
+○ Suspended: No están dentro del
+planificador del OS. Es como si no se
+hubiera creado, pero con la diferencia
+que la memoria que consume la tarea
+queda reservada.
+
+
+
+
+
+
+    
