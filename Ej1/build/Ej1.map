@@ -18506,7 +18506,7 @@ END GROUP
 
 .iram0.text     0x0000000040100080     0x4593
                 0x0000000040100080                _iram_text_start = ABSOLUTE (.)
- *(.iram1 .iram1.* EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2-fde.* *libgcc.a:unwind-dw2.* *libphy.a *libpp.a) .literal EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2-fde.* *libgcc.a:unwind-dw2.* *libphy.a *libpp.a) .text)
+ *(.iram1 .iram1.* EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2.* *libgcc.a:unwind-dw2-fde.* *libphy.a *libpp.a) .literal EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2.* *libgcc.a:unwind-dw2-fde.* *libphy.a *libpp.a) .text)
  .iram1.0.literal
                 0x0000000040100080       0x1c /home/nbusuario11/Documentos/FreertosConEsp8266/Ej1/build/esp8266/libesp8266.a(task_wdt.o)
  .iram1.1.literal
@@ -19029,6 +19029,7 @@ END GROUP
  *libcore.a:(.bss .bss.* COMMON)
  .bss.s_cpu_speed_up_nest
                 0x0000000040104614        0x2 /home/nbusuario11/esp/esp-idf/components/esp8266/lib/libcore.a(user_interface.o)
+ *libfreertos.a:impure.*(.bss .bss.* COMMON)
  *libfreertos.a:timers.*(.bss .bss.* COMMON)
  *fill*         0x0000000040104616        0x2 
  .bss.xLastTime$4351
@@ -19045,10 +19046,10 @@ END GROUP
                 0x000000004010462c       0x14 /home/nbusuario11/Documentos/FreertosConEsp8266/Ej1/build/freertos/libfreertos.a(timers.o)
  .bss.xActiveTimerList1
                 0x0000000040104640       0x14 /home/nbusuario11/Documentos/FreertosConEsp8266/Ej1/build/freertos/libfreertos.a(timers.o)
- *libfreertos.a:queue.*(.bss .bss.* COMMON)
+ *libfreertos.a:stream_buffer.*(.bss .bss.* COMMON)
  *libfreertos.a:list.*(.bss .bss.* COMMON)
  *libfreertos.a:event_groups.*(.bss .bss.* COMMON)
- *libfreertos.a:impure.*(.bss .bss.* COMMON)
+ *libfreertos.a:freertos_hooks.*(.bss .bss.* COMMON)
  *libfreertos.a:tasks.*(.bss .bss.* COMMON)
  .bss.uxSchedulerSuspended
                 0x0000000040104654        0x4 /home/nbusuario11/Documentos/FreertosConEsp8266/Ej1/build/freertos/libfreertos.a(tasks.o)
@@ -19093,8 +19094,7 @@ END GROUP
  .bss.pxCurrentTCB
                 0x000000004010481c        0x4 /home/nbusuario11/Documentos/FreertosConEsp8266/Ej1/build/freertos/libfreertos.a(tasks.o)
                 0x000000004010481c                pxCurrentTCB
- *libfreertos.a:stream_buffer.*(.bss .bss.* COMMON)
- *libfreertos.a:freertos_hooks.*(.bss .bss.* COMMON)
+ *libfreertos.a:queue.*(.bss .bss.* COMMON)
  *liblwip.a:(.bss .bss.* COMMON)
                 0x0000000040104820                . = ALIGN (0x4)
                 0x0000000040104820                _iram_bss_end = ABSOLUTE (.)
@@ -19192,7 +19192,7 @@ END GROUP
 .dram0.bss      0x000000003ffe83e0      0xf60
                 0x000000003ffe83e0                . = ALIGN (0x8)
                 0x000000003ffe83e0                _bss_start = ABSOLUTE (.)
- *(EXCLUDE_FILE(*liblwip.a *libfreertos.a:timers.* *libfreertos.a:queue.* *libfreertos.a:list.* *libfreertos.a:event_groups.* *libfreertos.a:impure.* *libfreertos.a:tasks.* *libfreertos.a:stream_buffer.* *libfreertos.a:freertos_hooks.* *libcore.a) .bss EXCLUDE_FILE(*liblwip.a *libfreertos.a:timers.* *libfreertos.a:queue.* *libfreertos.a:list.* *libfreertos.a:event_groups.* *libfreertos.a:impure.* *libfreertos.a:tasks.* *libfreertos.a:stream_buffer.* *libfreertos.a:freertos_hooks.* *libcore.a) .bss.* EXCLUDE_FILE(*liblwip.a *libfreertos.a:timers.* *libfreertos.a:queue.* *libfreertos.a:list.* *libfreertos.a:event_groups.* *libfreertos.a:impure.* *libfreertos.a:tasks.* *libfreertos.a:stream_buffer.* *libfreertos.a:freertos_hooks.* *libcore.a) COMMON)
+ *(EXCLUDE_FILE(*liblwip.a *libfreertos.a:impure.* *libfreertos.a:timers.* *libfreertos.a:stream_buffer.* *libfreertos.a:list.* *libfreertos.a:event_groups.* *libfreertos.a:freertos_hooks.* *libfreertos.a:tasks.* *libfreertos.a:queue.* *libcore.a) .bss EXCLUDE_FILE(*liblwip.a *libfreertos.a:impure.* *libfreertos.a:timers.* *libfreertos.a:stream_buffer.* *libfreertos.a:list.* *libfreertos.a:event_groups.* *libfreertos.a:freertos_hooks.* *libfreertos.a:tasks.* *libfreertos.a:queue.* *libcore.a) .bss.* EXCLUDE_FILE(*liblwip.a *libfreertos.a:impure.* *libfreertos.a:timers.* *libfreertos.a:stream_buffer.* *libfreertos.a:list.* *libfreertos.a:event_groups.* *libfreertos.a:freertos_hooks.* *libfreertos.a:tasks.* *libfreertos.a:queue.* *libcore.a) COMMON)
  .bss.s_nmi_wd_state
                 0x000000003ffe83e0        0x4 /home/nbusuario11/Documentos/FreertosConEsp8266/Ej1/build/esp8266/libesp8266.a(task_wdt.o)
  .bss.s_reset_reason
@@ -19460,7 +19460,7 @@ END GROUP
 .flash.text     0x0000000040210010    0x13c82
                 0x0000000040210010                _stext = .
                 0x0000000040210010                _text_start = ABSOLUTE (.)
- *(EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2-fde.* *libgcc.a:unwind-dw2.* *libphy.a *libpp.a) .literal EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2-fde.* *libgcc.a:unwind-dw2.* *libphy.a *libpp.a) .literal.* EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2-fde.* *libgcc.a:unwind-dw2.* *libphy.a *libpp.a) .text EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2-fde.* *libgcc.a:unwind-dw2.* *libphy.a *libpp.a) .text.* .wifi0iram .wifi0iram.*)
+ *(EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2.* *libgcc.a:unwind-dw2-fde.* *libphy.a *libpp.a) .literal EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2.* *libgcc.a:unwind-dw2-fde.* *libphy.a *libpp.a) .literal.* EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2.* *libgcc.a:unwind-dw2-fde.* *libphy.a *libpp.a) .text EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2.* *libgcc.a:unwind-dw2-fde.* *libphy.a *libpp.a) .text.* .wifi0iram .wifi0iram.*)
  .literal.user_init_entry
                 0x0000000040210010       0x1c /home/nbusuario11/Documentos/FreertosConEsp8266/Ej1/build/esp8266/libesp8266.a(startup.o)
                                          0x50 (size before relaxing)
@@ -20740,10 +20740,10 @@ END GROUP
  .literal.pthread_cond_init
                 0x0000000040210854        0x0 /home/nbusuario11/Documentos/FreertosConEsp8266/Ej1/build/pthread/libpthread.a(pthread_cond_var.o)
                                           0x8 (size before relaxing)
- .literal       0x0000000040210854       0x28 /home/nbusuario11/esp/esp-idf/components/esp8266/lib/libgcc.a(unwind-dw2-fde.o)
-                                         0x7c (size before relaxing)
- .literal       0x000000004021087c       0x60 /home/nbusuario11/esp/esp-idf/components/esp8266/lib/libgcc.a(unwind-dw2.o)
+ .literal       0x0000000040210854       0x60 /home/nbusuario11/esp/esp-idf/components/esp8266/lib/libgcc.a(unwind-dw2.o)
                                         0x104 (size before relaxing)
+ .literal       0x00000000402108b4       0x28 /home/nbusuario11/esp/esp-idf/components/esp8266/lib/libgcc.a(unwind-dw2-fde.o)
+                                         0x7c (size before relaxing)
  .text.user_init_entry
                 0x00000000402108dc       0x7d /home/nbusuario11/Documentos/FreertosConEsp8266/Ej1/build/esp8266/libesp8266.a(startup.o)
                                          0xa1 (size before relaxing)
@@ -23072,47 +23072,47 @@ END GROUP
  *fill*         0x000000004021d220        0x0 
  *fill*         0x000000004021d220        0x0 
  *fill*         0x000000004021d220        0x0 
- *libgcc.a:unwind-dw2-fde.*(.literal .literal.* .text .text.*)
- .text          0x000000004021d220      0xe71 /home/nbusuario11/esp/esp-idf/components/esp8266/lib/libgcc.a(unwind-dw2-fde.o)
-                                        0xe79 (size before relaxing)
-                0x000000004021de10                __register_frame_info_bases
-                0x000000004021de30                __register_frame_info
-                0x000000004021de54                __register_frame
-                0x000000004021de90                __register_frame_info_table_bases
-                0x000000004021deac                __register_frame_info_table
-                0x000000004021dec8                __register_frame_table
-                0x000000004021defc                __deregister_frame_info_bases
-                0x000000004021df8c                __deregister_frame_info
-                0x000000004021df9c                __deregister_frame
-                0x000000004021dfb8                _Unwind_Find_FDE
- *fill*         0x000000004021e091        0x0 
  *libgcc.a:unwind-dw2.*(.literal .literal.* .text .text.*)
- *fill*         0x000000004021e091        0x3 
- .text          0x000000004021e094     0x1e6b /home/nbusuario11/esp/esp-idf/components/esp8266/lib/libgcc.a(unwind-dw2.o)
+ .text          0x000000004021d220     0x1e6b /home/nbusuario11/esp/esp-idf/components/esp8266/lib/libgcc.a(unwind-dw2.o)
                                        0x1e87 (size before relaxing)
-                0x000000004021fa40                _Unwind_GetGR
-                0x000000004021fa80                _Unwind_GetCFA
-                0x000000004021fa88                _Unwind_SetGR
-                0x000000004021fad8                _Unwind_GetIP
-                0x000000004021fae0                _Unwind_GetIPInfo
-                0x000000004021faf0                _Unwind_SetIP
-                0x000000004021faf8                _Unwind_GetLanguageSpecificData
-                0x000000004021fb00                _Unwind_GetRegionStart
-                0x000000004021fb08                _Unwind_FindEnclosingFunction
-                0x000000004021fb24                _Unwind_GetDataRelBase
-                0x000000004021fb2c                _Unwind_GetTextRelBase
-                0x000000004021fb34                __frame_state_for
-                0x000000004021fbe8                _Unwind_RaiseException
-                0x000000004021fcd4                _Unwind_ForcedUnwind
-                0x000000004021fd5c                _Unwind_Resume
-                0x000000004021fde8                _Unwind_Resume_or_Rethrow
-                0x000000004021fe74                _Unwind_DeleteException
-                0x000000004021fe8c                _Unwind_Backtrace
- *fill*         0x000000004021feff        0x0 
+                0x000000004021ebcc                _Unwind_GetGR
+                0x000000004021ec0c                _Unwind_GetCFA
+                0x000000004021ec14                _Unwind_SetGR
+                0x000000004021ec64                _Unwind_GetIP
+                0x000000004021ec6c                _Unwind_GetIPInfo
+                0x000000004021ec7c                _Unwind_SetIP
+                0x000000004021ec84                _Unwind_GetLanguageSpecificData
+                0x000000004021ec8c                _Unwind_GetRegionStart
+                0x000000004021ec94                _Unwind_FindEnclosingFunction
+                0x000000004021ecb0                _Unwind_GetDataRelBase
+                0x000000004021ecb8                _Unwind_GetTextRelBase
+                0x000000004021ecc0                __frame_state_for
+                0x000000004021ed74                _Unwind_RaiseException
+                0x000000004021ee60                _Unwind_ForcedUnwind
+                0x000000004021eee8                _Unwind_Resume
+                0x000000004021ef74                _Unwind_Resume_or_Rethrow
+                0x000000004021f000                _Unwind_DeleteException
+                0x000000004021f018                _Unwind_Backtrace
+ *fill*         0x000000004021f08b        0x0 
+ *libgcc.a:unwind-dw2-fde.*(.literal .literal.* .text .text.*)
+ *fill*         0x000000004021f08b        0x1 
+ .text          0x000000004021f08c      0xe71 /home/nbusuario11/esp/esp-idf/components/esp8266/lib/libgcc.a(unwind-dw2-fde.o)
+                                        0xe79 (size before relaxing)
+                0x000000004021fc7c                __register_frame_info_bases
+                0x000000004021fc9c                __register_frame_info
+                0x000000004021fcc0                __register_frame
+                0x000000004021fcfc                __register_frame_info_table_bases
+                0x000000004021fd18                __register_frame_info_table
+                0x000000004021fd34                __register_frame_table
+                0x000000004021fd68                __deregister_frame_info_bases
+                0x000000004021fdf8                __deregister_frame_info
+                0x000000004021fe08                __deregister_frame
+                0x000000004021fe24                _Unwind_Find_FDE
+ *fill*         0x000000004021fefd        0x0 
  *(.irom0.literal .irom0.text)
  *(.irom.literal .irom.text .irom.text.literal)
  *(.text2 .text2.* .literal2 .literal2.*)
- *fill*         0x000000004021feff        0x1 
+ *fill*         0x000000004021fefd        0x3 
  .text2.45      0x000000004021ff00      0x289 /home/nbusuario11/esp/esp-idf/components/esp8266/lib/libphy.a(phy_chip_v5_ana_romfunc.o)
                                         0x291 (size before relaxing)
                 0x000000004021ff10                rom_set_channel_freq
