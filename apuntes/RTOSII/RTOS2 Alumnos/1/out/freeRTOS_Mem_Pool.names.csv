@@ -1,0 +1,332 @@
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002240 000000ac t uartProcessIRQ
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002cf4 00000004 b rxIsrCallbackUART0
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002cf8 00000004 b txIsrCallbackUART0
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002cfc 00000004 b txIsrCallbackUART2
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002d00 00000004 b txIsrCallbackUART3
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003b78 00000048 t lpcUarts
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002d04 00000004 b rxIsrCallbackUART2
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002d08 00000004 b rxIsrCallbackUART3
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10000088 00000200 b memPoolSto
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10000288 00000001 b debugPrint
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1000028c 00000004 b xNextFreeByte
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10000290 00002000 b ucHeap
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002290 00000004 b pucAlignedHeap.9926
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0004e8 0000001e t prvIsQueueFull
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000508 0000001a t prvIsQueueEmpty
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000524 00000076 t prvCopyDataToQueue
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00059c 00000024 t prvCopyDataFromQueue
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0005c0 0000006a t prvUnlockQueue
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0006ac 00000022 t prvInitialiseNewQueue
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002294 00000168 b uxIdleTaskStack.9314
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:100023fc 00000060 b xIdleTaskTCB.9313
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1000245c 00000060 b xTimerTaskTCB.9320
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:100024bc 000005a0 b uxTimerTaskStack.9321
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000c88 00000034 t prvResetNextTaskUnblockTime
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000cbc 00000092 t prvInitialiseNewTask
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000d50 00000068 t prvInitialiseTaskLists
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000db8 000000a8 t prvAddNewTaskToReadyList
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000e60 0000003a t prvDeleteTCB
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000e9c 00000044 t prvCheckTasksWaitingTermination
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000ee0 00000028 t prvIdleTask
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000f08 00000094 t prvAddCurrentTaskToDelayedList
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002a5c 00000004 b xNumOfOverflows
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002a60 00000004 b pxDelayedTaskList
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002a64 00000004 b xSchedulerRunning
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002a68 00000014 b xTasksWaitingTermination
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002a7c 00000004 b pxOverflowDelayedTaskList
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002a80 00000004 b uxPendedTicks
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002a84 0000008c b pxReadyTasksLists
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002b10 00000004 b uxSchedulerSuspended
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002b14 00000004 b uxDeletedTasksWaitingCleanUp
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002b18 00000004 b uxCurrentNumberOfTasks
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002b20 00000014 b xPendingReadyList
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002b34 00000004 b xIdleTaskHandle
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002b38 00000004 b xTickCount
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002b3c 00000004 b xNextTaskUnblockTime
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002b40 00000004 b uxTaskNumber
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002b44 00000014 b xDelayedTaskList1
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002b58 00000014 b xDelayedTaskList2
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002b6c 00000014 b xSuspendedTaskList
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002b80 00000004 b uxTopReadyPriority
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002b84 00000004 b xYieldPending
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0016d8 00000020 t prvGetNextExpireTime
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0016f8 00000048 t prvInsertTimerInActiveList
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001740 0000006c t prvCheckForValidListAndQueue
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0017ac 00000040 t prvInitialiseNewTimer
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001b60 00000016 t prvTimerTask
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001918 0000007c t prvSwitchTimerLists
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001994 0000002c t prvSampleTimeNow
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0019c0 0000005c t prvProcessExpiredTimer
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001a1c 00000074 t prvProcessTimerOrBlockTask
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001a90 000000d0 t prvProcessReceivedCommands
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002b88 00000004 b pxCurrentTimerList
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002b8c 00000014 b xActiveTimerList1
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002ba0 00000014 b xActiveTimerList2
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002bb4 000000a0 b ucStaticTimerQueueStorage.10316
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002c54 00000004 b xLastTime.10265
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002c58 00000050 b xStaticTimerQueue.10315
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002ca8 00000004 b xTimerQueue
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002cac 00000004 b pxOverflowTimerList
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002cb0 00000004 b xTimerTaskHandle
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001b78 00000040 t prvTaskExitError
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001bb8 00000022 t prvPortStartFirstTask
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001be0 0000000e t vPortEnableVFP
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001c40 t pxCurrentTCBConst2
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001d20 t pxCurrentTCBConst
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002cb4 00000001 b ucMaxSysCallPriority
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002cb8 00000004 b ulMaxPRIGROUPValue
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10000000 00000004 d uxCriticalNesting
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10000008 00000004 d ClockSpeed
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001f34 0000002c t gpioObtainPinInit
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002cc0 00000030 b tickerObject.10478
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0023e0 00000002 t errorOcurred
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0023e4 00000002 t doNothing
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1000000c 00000040 d timer_dd
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002600 00000040 t Board_LED_Init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002640 0000003c t Board_TEC_Init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00267c 0000003c t Board_GPIO_Init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0026b8 00000038 t Board_SPI_Init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0026f0 00000024 t Board_I2C_Init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002714 00000030 t Board_ADC_Init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003bc4 00000012 t GpioPorts
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003be0 00000008 t GpioButtons
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003be8 0000000c t GpioLeds
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003bf4 0000000c t InitClkStates
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003c00 00000098 t pinmuxing
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00286c 0000002c t Chip_UART_GetIndex
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003c98 00000008 t UART_BClock
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003ca0 00000008 t UART_PClock
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002a10 00000014 t Chip_ADC_GetClockIndex
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002a24 00000030 t getClkDiv
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002ae8 000000a8 t pll_calc_divs
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002b90 00000104 t pll_get_frac
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002c94 00000048 t Chip_Clock_FindBaseClock
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002f00 00000022 t Chip_Clock_GetDivRate
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002d0c 00000008 b audio_usb_pll_freq
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003cb4 0000006c t periph_to_base
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003d20 00000048 t InitClkStates
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003200 00000014 t Chip_SSP_GetClockIndex
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003214 00000018 t Chip_SSP_GetPeriphClockIndex
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1000004c 00000038 d i2c
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a080000 a __top_MFlashA512
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003d70 r __exidx_end
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003d70 r _etext
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:20008000 a __top_RamAHB32
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003d68 r __exidx_start
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:20010000 a __top_RamAHB_ETB16
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10008000 a __top_RamLoc32
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:         U _printf_float
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:2000c000 a __top_RamAHB16
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1008a000 a __top_RamLoc40
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003d68 b __init_array_end
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003d68 b __preinit_array_end
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002d7c b _pvHeapStart
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1b080000 a __top_MFlashB512
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003d68 b __init_array_start
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003d68 b __preinit_array_start
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002d28 0000001c T Chip_Clock_GetDividerSource
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003414 0000002e T __gnu_uldivmod_helper
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002464 00000040 T TIMER2_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00019c 00000002 W DebugMon_Handler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W RIT_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W ADCHS_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003448 0000029c T __divdi3
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000114 T __section_table_start
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W FLASH_EEPROM_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001c94 0000002c T vPortExitCritical
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W I2C0_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002cf0 00000004 B callBackFuncParams
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000188 00000002 W HardFault_Handler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000b70 0000004c T vQueueWaitForMessageRestricted
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000000 A __vectors_start__
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002ac8 0000000c T Chip_ADC_SetResolution
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001d30 0000002c T SysTick_Handler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0028ec 00000040 T Chip_UART_SetBaud
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0024f4 00000008 T printString
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W SDIO_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W ATIMER_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001cc0 00000064 T PendSV_Handler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00090c 000000e4 T xQueueGenericSendFromISR
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000184 00000002 W NMI_Handler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000150 T __data_section_table_end
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W I2C1_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W UART1_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W GPIO5_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W CAN1_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002b1c 00000004 B pxCurrentTCB
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:53ff4512 A __valid_user_code_checksum
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W USB1_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W I2S0_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001560 00000018 T vTaskInternalSetTimeOutState
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0024a4 00000040 T TIMER3_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002f8c 0000000c T Chip_Clock_GetBaseClocktHz
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000178 0000000a T UART0_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001c8 00000012 T bss_init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001d94 00000128 T xPortStartScheduler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00399c 00000016 T memcpy
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00146c 00000030 T vTaskPlaceOnEventList
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002d14 00000014 B myMemPool
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W SGPIO_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001d5c 00000038 W vPortSetupTimerInterrupt
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0033b4 T __aeabi_uldivmod
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002d7c ? _noinit
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0004d0 00000016 T vPortFree
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0023b0 00000018 T uartWriteString
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002d78 00000004 B SystemCoreClock
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002898 00000054 T Chip_UART_Init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W ADC0_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0021c4 00000030 T tickerCallback
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001ebc 0000005c T vPortValidateInterruptPriority
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000194 00000002 W UsageFault_Handler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003008 0000004c T Chip_Clock_GetRate
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000bdc 00000018 T vListInsertEnd
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W GPIO6_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0024e4 0000000e T printInitUart
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002d68 00000008 B tickCounter
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0027f4 0000006c T Board_SetupClocking
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003bdc 00000004 T ExtRateIn
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W IntDefaultHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000300 T __CRP_WORD_END__
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000bd4 00000006 T vListInitialiseItem
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000300 0000004c T myTask
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W GPIO1_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0009f0 00000158 T xQueueReceive
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002d28 00000040 B xQueueRegistry
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000c68 00000018 T vApplicationGetTimerTaskMemory
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W SSP0_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0002fc 00000004 T CRP_WORD
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003950 0000004c T __libc_init_array
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0036e4 0000026a T __udivdi3
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W ADC1_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00046c 00000064 T pvPortMalloc
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002768 0000003c T Board_Init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0033b0 00000002 T _init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000bbc 00000016 T vListInitialise
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000114 T __data_section_table
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001130 0000000c T xTaskGetTickCount
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00077c 00000190 T xQueueGenericSend
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W RTC_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002d7c B _ebss
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0023e8 0000003c T TIMER0_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000424 00000046 T QMPool_get
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0021f4 0000004c T tickInit
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W SPI_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0032fc 00000030 T Chip_I2C_SetClockRate
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001624 000000b4 T xTaskPriorityDisinherit
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W LCD_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002cdc 0000004c T Chip_Clock_EnableCrystal
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0014d4 0000008c T xTaskRemoveFromEventList
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000c84 00000002 T vApplicationMallocFailedHook
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001ac 0000001a T data_init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002424 00000040 T TIMER1_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0032d8 00000024 T Chip_I2C_Init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0023c8 0000000a T UART2_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0024fc 00000010 T printEnter
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002e98 00000068 T Chip_Clock_GetMainPLLHz
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003a34 00000136 T gpioPinsInit
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002394 0000001a T uartWriteByte
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00322c 00000012 T Chip_SSP_SetClockRate
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0021ac 00000016 T gpioToggle
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W GPIO2_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001578 00000080 T xTaskCheckForTimeOut
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002f68 00000024 T Chip_Clock_GetBaseClock
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10000088 B _bss
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002a94 00000032 T Chip_ADC_SetSampleRate
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001120 00000010 T vTaskSuspendAll
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W I2S1_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003240 0000003e T Chip_SSP_SetBitRate
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000c28 00000026 T uxListRemove
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0031fc 00000002 T Chip_GPIO_Init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003bd8 00000004 T OscRateIn
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002318 0000007c T uartInit
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000f9c 0000007c T xTaskCreateStatic
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002d7c ? _end_noinit
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10008000 A _vStackTop
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0039c2 00000024 T strncpy
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0013a8 000000c4 T vTaskSwitchContext
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W SSP1_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0006d0 000000aa T xQueueGenericCreateStatic
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00149c 00000038 T vTaskPlaceOnEventListRestricted
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000178 T __bss_section_table_end
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001f60 0000019c T gpioInit
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000c50 00000018 T vApplicationGetIdleTaskMemory
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0018ac 0000006c T xTimerGenericCommand
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000c80 00000002 T vApplicationStackOverflowHook
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003444 00000002 W __aeabi_ldiv0
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W USB0_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W GPIO3_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W SCT_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002d44 0000001c T Chip_Clock_GetDividerDivisor
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0002fc T __CRP_WORD_START__
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0039b2 00000010 T memset
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00018c 00000002 W MemManage_Handler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00034c 0000006c T main
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W WDT_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000bf4 00000034 T vListInsert
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001c20 00000024 T SVC_Handler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10000004 00000004 D DWT_CTRL
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0017ec 00000070 T xTimerCreateTimerTask
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0022ec 00000018 T uartTxReady
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W GPIO7_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002f98 0000003c T Chip_Clock_EnableOpts
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002d60 000000b8 T Chip_Clock_GetClockInputHz
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0031a4 00000058 T fpuInit
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002e18 00000080 T Chip_Clock_CalcMainPLLValue
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0027a4 0000001c T SystemInit
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W SPIFI_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W QEI_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000150 T __bss_section_table
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0020fc 00000058 T gpioWrite
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001260 000000f8 T xTaskResumeAll
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001080 000000a0 T vTaskStartScheduler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002a54 00000040 T Chip_ADC_Init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0027c0 00000034 T Board_SetupMuxing
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000404 0000001e T QMPool_put
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00292c 000000e4 T Chip_UART_SetBaudFDR
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002d70 00000008 B tickRateMS
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W ETH_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10002cbc 00000004 B tickHookFunction
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10000000 ? _end_uninit_RESERVED
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002304 00000014 T uartTxWrite
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W CAN0_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10000000 D _data
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0015f8 0000000c T vTaskMissedYield
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000178 T __section_table_end
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003280 00000038 T Chip_SSP_Init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000b48 00000028 T vQueueAddToRegistry
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W GINT0_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00113c 00000124 T xTaskIncrementTick
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W DAC_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002744 00000024 T Board_Debug_Init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00062c 00000080 T xQueueGenericReset
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:10000084 D _edata
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0032b8 00000020 T Chip_I2C_EventHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W M0SUB_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001018 00000066 T xTaskCreate
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003054 00000150 T Chip_SetupCoreClock
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W GPIO0_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000000 00000114 T g_pfnVectors
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00332c 00000084 T ResetISR
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002ad4 00000014 T SystemCoreClockUpdate
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W DMA_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001358 00000050 T vTaskDelay
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W EVRT_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0003b8 0000004c T QMPool_init
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001604 00000020 T xTaskGetSchedulerState
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a003444 00000002 W __aeabi_idiv0
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a000190 00000002 W BusFault_Handler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001bf4 0000002c T pxPortInitialiseStack
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002fd4 00000034 T Chip_Clock_Enable
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0023d4 0000000a T UART3_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W MCPWM_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00185c 0000004e T xTimerCreateStatic
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0033e4 0000002e T __gnu_ldivmod_helper
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W M0APP_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002154 00000058 T gpioRead
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a00250c 000000f4 T boardInit
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001c50 00000044 T vPortEnterCritical
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W GINT1_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002f24 00000044 T Chip_Clock_SetBaseClock
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a001f18 0000001c T cyclesCounterInit
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a0001a8 00000002 W GPIO4_IRQHandler
+examples/c/sapi/operating_systems/free_rtos/dynamic_mem/freeRTOS_Mem_Pool/out/freeRTOS_Mem_Pool.elf:1a002860 0000000c T Board_SystemInit

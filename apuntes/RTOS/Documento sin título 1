@@ -1,0 +1,86 @@
+Crear un semaforo (arranca tomado):
+
+SemaphoreHandle_t mi_semaforo = xSemaphoreCreateBinary();
+
+Tomar el semaforo: retorna pdTRUE, pdFALSE
+xSemaphoreTake( mi_semaforo ,
+TickType_t xTicksToWait);
+
+Liberar el semaforo:
+xSemaphoreGive( mi_semaforo )
+
+Semaforo contador:
+SemaphoreHandle_t mi_semaforo = xSemaphoreCreateCounting( MAX , INICIAL);
+
+Sección crítica:
+
+taskENTER_CRITICAL();
+//sección crítica
+taskEXIT_CRITICAL();
+
+Mutex:
+
+SemaphoreHandle_t xSemaphoreCreateMutex( void )
+
+Colas:
+
+Crear:
+QueueHandle_t mi_cola = xQueueCreate( UBaseType_t uxQueueLength,
+UBaseType_t uxItemSize );
+
+Agregar elemento:
+
+BaseType_t xQueueSend( QueueHandle_t xQueue,
+const void*
+pvItemToQueue,
+TickType_t
+xTicksToWait
+);
+
+xQueue = Nombre del objeto con el valor devuelto por xQueueCreate
+pvItemToQueue = Dirección de memoria del
+elemento a agregar.
+xTicksToWait = Tiempo en ticks que
+como máximo deberá bloquearse la
+tarea en caso de que la cola esté
+llena.
+La funcion retorna:
+pdTRUE: Si el elemento se envió correctamente
+pdFALSE: Si el elemento no se envió, y el llamado dio timeout.
+
+BaseType_t xQueueReceive( QueueHandle_t xQueue,
+void*
+pvBuffer,
+TickType_t
+xTicksToWait );
+xQueue = Nombre del objeto con el valor devuelto por xQueueCreate
+pvItemToQueue = Dirección de memoria del lugar en donde se almacenará el elemento
+removido.
+xTicksToWait = Tiempo en ticks que como máximo deberá bloquearse la tarea en caso de
+que la cola esté vacía.
+La funcion retorna:
+pdTRUE: Si el elemento se recibió correctamente
+pdFALSE: Si el elemento no se recibió , y el llamado dio timeout.
+
+xQueuePeek:
+uxQueueMessagesWaiting:
+uxQueueSpacesAvailable:
+vQueueDelete:
+xQueueReset:
+
+QueueHandle_t cola_1 = xQueueCreate( 4 , sizeof(uint8_t) );
+//LOS ELEMENTOS DE COMUNICACIÓN ENTRE TAREAS DEBEN SER GLOBALES
+void TareaA( void* params )
+{
+BaseType_t rv;
+uint8_t elemento_a_agregar = 20 ;
+while(1)
+{
+/* RESTO DE CÓDIGO */
+rv = xQueueSend( cola_1 , &elemento_a_agregar , 1000 );
+Elemento_a_agregar++;
+/* RESTO DE CÓDIGO */
+}
+}
+
+

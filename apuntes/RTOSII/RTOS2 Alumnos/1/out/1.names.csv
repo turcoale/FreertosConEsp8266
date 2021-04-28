@@ -1,0 +1,357 @@
+practicas/1/out/1.elf:1a00230c 000000bc t uartProcessIRQ
+practicas/1/out/1.elf:10002d9c 00000004 b rxIsrCallbackUART0
+practicas/1/out/1.elf:10002da0 00000004 b rxIsrCallbackUART2
+practicas/1/out/1.elf:10002da4 00000004 b rxIsrCallbackUART3
+practicas/1/out/1.elf:10002da8 00000004 b txIsrCallbackUART0
+practicas/1/out/1.elf:10002dac 00000004 b txIsrCallbackUART2
+practicas/1/out/1.elf:10002db0 00000004 b txIsrCallbackUART3
+practicas/1/out/1.elf:1a004290 00000048 t lpcUarts
+practicas/1/out/1.elf:10000130 00000001 b debugPrint
+practicas/1/out/1.elf:10000134 00000200 b memoria_para_pool_1
+practicas/1/out/1.elf:10000334 00000004 b xNextFreeByte
+practicas/1/out/1.elf:10000338 00002000 b ucHeap
+practicas/1/out/1.elf:10002338 00000004 b pucAlignedHeap.9926
+practicas/1/out/1.elf:1a000520 0000001e t prvIsQueueFull
+practicas/1/out/1.elf:1a000540 0000001a t prvIsQueueEmpty
+practicas/1/out/1.elf:1a00055c 00000076 t prvCopyDataToQueue
+practicas/1/out/1.elf:1a0005d4 00000024 t prvCopyDataFromQueue
+practicas/1/out/1.elf:1a0005f8 0000006a t prvUnlockQueue
+practicas/1/out/1.elf:1a0006e4 00000022 t prvInitialiseNewQueue
+practicas/1/out/1.elf:1000233c 00000168 b uxIdleTaskStack.9314
+practicas/1/out/1.elf:100024a4 00000060 b xIdleTaskTCB.9313
+practicas/1/out/1.elf:10002504 00000060 b xTimerTaskTCB.9320
+practicas/1/out/1.elf:10002564 000005a0 b uxTimerTaskStack.9321
+practicas/1/out/1.elf:1a000cc0 00000034 t prvResetNextTaskUnblockTime
+practicas/1/out/1.elf:1a000cf4 00000092 t prvInitialiseNewTask
+practicas/1/out/1.elf:1a000d88 00000068 t prvInitialiseTaskLists
+practicas/1/out/1.elf:1a000df0 000000a8 t prvAddNewTaskToReadyList
+practicas/1/out/1.elf:1a000e98 0000003a t prvDeleteTCB
+practicas/1/out/1.elf:1a000ed4 00000044 t prvCheckTasksWaitingTermination
+practicas/1/out/1.elf:1a000f18 00000028 t prvIdleTask
+practicas/1/out/1.elf:1a000f40 00000094 t prvAddCurrentTaskToDelayedList
+practicas/1/out/1.elf:10002b04 00000004 b xNumOfOverflows
+practicas/1/out/1.elf:10002b08 00000004 b pxDelayedTaskList
+practicas/1/out/1.elf:10002b0c 00000004 b xSchedulerRunning
+practicas/1/out/1.elf:10002b10 00000014 b xTasksWaitingTermination
+practicas/1/out/1.elf:10002b24 00000004 b pxOverflowDelayedTaskList
+practicas/1/out/1.elf:10002b28 00000004 b uxPendedTicks
+practicas/1/out/1.elf:10002b2c 0000008c b pxReadyTasksLists
+practicas/1/out/1.elf:10002bb8 00000004 b uxSchedulerSuspended
+practicas/1/out/1.elf:10002bbc 00000004 b uxDeletedTasksWaitingCleanUp
+practicas/1/out/1.elf:10002bc0 00000004 b uxCurrentNumberOfTasks
+practicas/1/out/1.elf:10002bc8 00000014 b xPendingReadyList
+practicas/1/out/1.elf:10002bdc 00000004 b xIdleTaskHandle
+practicas/1/out/1.elf:10002be0 00000004 b xTickCount
+practicas/1/out/1.elf:10002be4 00000004 b xNextTaskUnblockTime
+practicas/1/out/1.elf:10002be8 00000004 b uxTaskNumber
+practicas/1/out/1.elf:10002bec 00000014 b xDelayedTaskList1
+practicas/1/out/1.elf:10002c00 00000014 b xDelayedTaskList2
+practicas/1/out/1.elf:10002c14 00000014 b xSuspendedTaskList
+practicas/1/out/1.elf:10002c28 00000004 b uxTopReadyPriority
+practicas/1/out/1.elf:10002c2c 00000004 b xYieldPending
+practicas/1/out/1.elf:1a001710 00000020 t prvGetNextExpireTime
+practicas/1/out/1.elf:1a001730 00000048 t prvInsertTimerInActiveList
+practicas/1/out/1.elf:1a001778 0000006c t prvCheckForValidListAndQueue
+practicas/1/out/1.elf:1a0017e4 00000040 t prvInitialiseNewTimer
+practicas/1/out/1.elf:1a001b98 00000016 t prvTimerTask
+practicas/1/out/1.elf:1a001950 0000007c t prvSwitchTimerLists
+practicas/1/out/1.elf:1a0019cc 0000002c t prvSampleTimeNow
+practicas/1/out/1.elf:1a0019f8 0000005c t prvProcessExpiredTimer
+practicas/1/out/1.elf:1a001a54 00000074 t prvProcessTimerOrBlockTask
+practicas/1/out/1.elf:1a001ac8 000000d0 t prvProcessReceivedCommands
+practicas/1/out/1.elf:10002c30 00000004 b pxCurrentTimerList
+practicas/1/out/1.elf:10002c34 00000014 b xActiveTimerList1
+practicas/1/out/1.elf:10002c48 00000014 b xActiveTimerList2
+practicas/1/out/1.elf:10002c5c 000000a0 b ucStaticTimerQueueStorage.10316
+practicas/1/out/1.elf:10002cfc 00000004 b xLastTime.10265
+practicas/1/out/1.elf:10002d00 00000050 b xStaticTimerQueue.10315
+practicas/1/out/1.elf:10002d50 00000004 b xTimerQueue
+practicas/1/out/1.elf:10002d54 00000004 b pxOverflowTimerList
+practicas/1/out/1.elf:10002d58 00000004 b xTimerTaskHandle
+practicas/1/out/1.elf:1a001bb0 00000040 t prvTaskExitError
+practicas/1/out/1.elf:1a001bf0 00000022 t prvPortStartFirstTask
+practicas/1/out/1.elf:1a001c18 0000000e t vPortEnableVFP
+practicas/1/out/1.elf:1a001c80 t pxCurrentTCBConst2
+practicas/1/out/1.elf:1a001d60 t pxCurrentTCBConst
+practicas/1/out/1.elf:10002d5c 00000001 b ucMaxSysCallPriority
+practicas/1/out/1.elf:10002d60 00000004 b ulMaxPRIGROUPValue
+practicas/1/out/1.elf:10000000 00000004 d uxCriticalNesting
+practicas/1/out/1.elf:10000004 00000004 d ClockSpeed
+practicas/1/out/1.elf:1a001f74 00000010 t clearInterrupt
+practicas/1/out/1.elf:1a001f84 0000005c t serveInterrupt
+practicas/1/out/1.elf:1000000c 00000048 d ultrasonicSensors
+practicas/1/out/1.elf:1a004148 00000003 t ultrasonicSensorsIrqMap
+practicas/1/out/1.elf:1a002000 00000034 t gpioObtainPinInit
+practicas/1/out/1.elf:10002d6c 00000030 b tickerObject.11711
+practicas/1/out/1.elf:1a0024b6 00000002 t errorOcurred
+practicas/1/out/1.elf:1a0024b8 00000002 t doNothing
+practicas/1/out/1.elf:10000054 00000040 d timer_dd
+practicas/1/out/1.elf:1a0026e0 00000044 t Board_LED_Init
+practicas/1/out/1.elf:1a002724 00000040 t Board_TEC_Init
+practicas/1/out/1.elf:1a002764 00000040 t Board_GPIO_Init
+practicas/1/out/1.elf:1a0027a4 00000038 t Board_SPI_Init
+practicas/1/out/1.elf:1a0027dc 00000024 t Board_I2C_Init
+practicas/1/out/1.elf:1a002800 00000030 t Board_ADC_Init
+practicas/1/out/1.elf:1a0042e0 00000008 t GpioButtons
+practicas/1/out/1.elf:1a0042e8 0000000c t GpioLeds
+practicas/1/out/1.elf:1a0042f4 00000012 t GpioPorts
+practicas/1/out/1.elf:10002db4 00000004 b heap_end.11488
+practicas/1/out/1.elf:1a00430c 0000000c t InitClkStates
+practicas/1/out/1.elf:1a004318 00000098 t pinmuxing
+practicas/1/out/1.elf:10000094 00000038 d i2c
+practicas/1/out/1.elf:1a0029f0 0000002c t Chip_UART_GetIndex
+practicas/1/out/1.elf:1a0043b0 00000008 t UART_BClock
+practicas/1/out/1.elf:1a0043b8 00000008 t UART_PClock
+practicas/1/out/1.elf:1a002b98 00000014 t Chip_ADC_GetClockIndex
+practicas/1/out/1.elf:1a002bac 00000030 t getClkDiv
+practicas/1/out/1.elf:1a002c70 000000a8 t pll_calc_divs
+practicas/1/out/1.elf:1a002d18 00000104 t pll_get_frac
+practicas/1/out/1.elf:1a002e1c 00000048 t Chip_Clock_FindBaseClock
+practicas/1/out/1.elf:1a003088 00000022 t Chip_Clock_GetDivRate
+practicas/1/out/1.elf:10002db8 00000008 b audio_usb_pll_freq
+practicas/1/out/1.elf:1a0043cc 0000006c t periph_to_base
+practicas/1/out/1.elf:1a004438 00000048 t InitClkStates
+practicas/1/out/1.elf:1a00338c 00000014 t Chip_SSP_GetClockIndex
+practicas/1/out/1.elf:1a0033a0 00000018 t Chip_SSP_GetPeriphClockIndex
+practicas/1/out/1.elf:100000d0 00000060 d impure_data
+practicas/1/out/1.elf:1a004514 b __init_array_end
+practicas/1/out/1.elf:1a004514 b __preinit_array_end
+practicas/1/out/1.elf:1a004514 b __init_array_start
+practicas/1/out/1.elf:1a004514 b __preinit_array_start
+practicas/1/out/1.elf:1a0040d2 00000010 T _malloc_usable_size_r
+practicas/1/out/1.elf:1a002eb0 0000001c T Chip_Clock_GetDividerSource
+practicas/1/out/1.elf:1a00253c 00000044 T TIMER2_IRQHandler
+practicas/1/out/1.elf:1a00018e 00000002 W DebugMon_Handler
+practicas/1/out/1.elf:1a000194 00000002 W RIT_IRQHandler
+practicas/1/out/1.elf:1a080000 A __top_MFlashA512
+practicas/1/out/1.elf:1a000194 00000002 W ADCHS_IRQHandler
+practicas/1/out/1.elf:1a000114 T __section_table_start
+practicas/1/out/1.elf:1a000194 00000002 W FLASH_EEPROM_IRQHandler
+practicas/1/out/1.elf:1a001cd4 0000002c T vPortExitCritical
+practicas/1/out/1.elf:1a000194 00000002 W I2C0_IRQHandler
+practicas/1/out/1.elf:10002d64 00000004 B callBackFuncParams
+practicas/1/out/1.elf:1a000184 00000002 W HardFault_Handler
+practicas/1/out/1.elf:1a000ba8 0000004c T vQueueWaitForMessageRestricted
+practicas/1/out/1.elf:1a000000 A __vectors_start__
+practicas/1/out/1.elf:1a002c50 0000000c T Chip_ADC_SetResolution
+practicas/1/out/1.elf:1a004084 00000002 T __malloc_unlock
+practicas/1/out/1.elf:1a001d70 0000002c T SysTick_Handler
+practicas/1/out/1.elf:1a002a70 00000040 T Chip_UART_SetBaud
+practicas/1/out/1.elf:1a0025d4 00000008 T printString
+practicas/1/out/1.elf:1a000194 00000002 W SDIO_IRQHandler
+practicas/1/out/1.elf:1a000194 00000002 W ATIMER_IRQHandler
+practicas/1/out/1.elf:1a004050 00000032 T memmove
+practicas/1/out/1.elf:1a001d00 00000064 T PendSV_Handler
+practicas/1/out/1.elf:1a000944 000000e4 T xQueueGenericSendFromISR
+practicas/1/out/1.elf:1a000182 00000002 W NMI_Handler
+practicas/1/out/1.elf:1a00451c R __exidx_end
+practicas/1/out/1.elf:1a000150 T __data_section_table_end
+practicas/1/out/1.elf:1a000194 00000002 W I2C1_IRQHandler
+practicas/1/out/1.elf:1a000194 00000002 W UART1_IRQHandler
+practicas/1/out/1.elf:1a000194 00000002 W GPIO5_IRQHandler
+practicas/1/out/1.elf:1a000194 00000002 W CAN1_IRQHandler
+practicas/1/out/1.elf:10002bc4 00000004 B pxCurrentTCB
+practicas/1/out/1.elf:53ff4418 A __valid_user_code_checksum
+practicas/1/out/1.elf:1a00451c R _etext
+practicas/1/out/1.elf:1a000194 00000002 W USB1_IRQHandler
+practicas/1/out/1.elf:1a000194 00000002 W I2S0_IRQHandler
+practicas/1/out/1.elf:1a001598 00000018 T vTaskInternalSetTimeOutState
+practicas/1/out/1.elf:1a002580 00000044 T TIMER3_IRQHandler
+practicas/1/out/1.elf:1a003114 0000000c T Chip_Clock_GetBaseClocktHz
+practicas/1/out/1.elf:1a000178 0000000a T UART0_IRQHandler
+practicas/1/out/1.elf:1a0001b4 00000012 T bss_init
+practicas/1/out/1.elf:1a001dd4 00000128 T xPortStartScheduler
+practicas/1/out/1.elf:1a003814 00000016 T memcpy
+practicas/1/out/1.elf:1a0014a4 00000030 T vTaskPlaceOnEventList
+practicas/1/out/1.elf:1a000194 00000002 W SGPIO_IRQHandler
+practicas/1/out/1.elf:1a003aac 000001ec T _svfprintf_r
+practicas/1/out/1.elf:1a001d9c 00000038 W vPortSetupTimerInterrupt
+practicas/1/out/1.elf:1a0034cc T __aeabi_uldivmod
+practicas/1/out/1.elf:10002e34 ? _noinit
+practicas/1/out/1.elf:1a000508 00000016 T vPortFree
+practicas/1/out/1.elf:1a00248a 00000018 T uartWriteString
+practicas/1/out/1.elf:10002e30 00000004 B SystemCoreClock
+practicas/1/out/1.elf:1a002a1c 00000054 T Chip_UART_Init
+practicas/1/out/1.elf:1a000194 00000002 W ADC0_IRQHandler
+practicas/1/out/1.elf:1a002288 00000038 T tickerCallback
+practicas/1/out/1.elf:1a001efc 0000005c T vPortValidateInterruptPriority
+practicas/1/out/1.elf:1a00018a 00000002 W UsageFault_Handler
+practicas/1/out/1.elf:1a003190 0000004c T Chip_Clock_GetRate
+practicas/1/out/1.elf:1a000c14 00000018 T vListInsertEnd
+practicas/1/out/1.elf:1a000194 00000002 W GPIO6_IRQHandler
+practicas/1/out/1.elf:1a0025c4 00000010 T printInitUart
+practicas/1/out/1.elf:10002e20 00000008 B tickCounter
+practicas/1/out/1.elf:1a002904 0000006c T Board_SetupClocking
+practicas/1/out/1.elf:20008000 A __top_RamAHB32
+practicas/1/out/1.elf:1a0034fc 000002cc T __udivmoddi4
+practicas/1/out/1.elf:1a002890 00000020 T _sbrk_r
+practicas/1/out/1.elf:1a0042dc 00000004 T ExtRateIn
+practicas/1/out/1.elf:1a000194 00000002 W IntDefaultHandler
+practicas/1/out/1.elf:1a000300 T __CRP_WORD_END__
+practicas/1/out/1.elf:1a000c0c 00000006 T vListInitialiseItem
+practicas/1/out/1.elf:1a0003c4 00000074 T myTask
+practicas/1/out/1.elf:1a001fea 0000000a T GPIO1_IRQHandler
+practicas/1/out/1.elf:1a000a28 00000158 T xQueueReceive
+practicas/1/out/1.elf:10002ddc 00000040 B xQueueRegistry
+practicas/1/out/1.elf:1a000ca0 00000018 T vApplicationGetTimerTaskMemory
+practicas/1/out/1.elf:1a000194 00000002 W SSP0_IRQHandler
+practicas/1/out/1.elf:1a004514 R __exidx_start
+practicas/1/out/1.elf:1a0002fc 00000004 T CRP_WORD
+practicas/1/out/1.elf:1a004086 0000004c T _realloc_r
+practicas/1/out/1.elf:1a0037cc 00000048 T __libc_init_array
+practicas/1/out/1.elf:1a000194 00000002 W ADC1_IRQHandler
+practicas/1/out/1.elf:1a0004a4 00000064 T pvPortMalloc
+practicas/1/out/1.elf:1a002854 0000003c T Board_Init
+practicas/1/out/1.elf:1a0034c8 00000002 T _init
+practicas/1/out/1.elf:1a000bf4 00000016 T vListInitialise
+practicas/1/out/1.elf:1a000114 T __data_section_table
+practicas/1/out/1.elf:1a001168 0000000c T xTaskGetTickCount
+practicas/1/out/1.elf:1a0007b4 00000190 T xQueueGenericSend
+practicas/1/out/1.elf:1a000194 00000002 W RTC_IRQHandler
+practicas/1/out/1.elf:10002e34 B _ebss
+practicas/1/out/1.elf:1a0024bc 00000040 T TIMER0_IRQHandler
+practicas/1/out/1.elf:1a00036a 00000046 T QMPool_get
+practicas/1/out/1.elf:1a0022c0 0000004c T tickInit
+practicas/1/out/1.elf:20010000 A __top_RamAHB_ETB16
+practicas/1/out/1.elf:1a000194 00000002 W SPI_IRQHandler
+practicas/1/out/1.elf:1a0029c0 00000030 T Chip_I2C_SetClockRate
+practicas/1/out/1.elf:1a00165c 000000b4 T xTaskPriorityDisinherit
+practicas/1/out/1.elf:1a000194 00000002 W LCD_IRQHandler
+practicas/1/out/1.elf:1a002e64 0000004c T Chip_Clock_EnableCrystal
+practicas/1/out/1.elf:10008000 A __top_RamLoc32
+practicas/1/out/1.elf:1a00150c 0000008c T xTaskRemoveFromEventList
+practicas/1/out/1.elf:1a000cbc 00000002 T vApplicationMallocFailedHook
+practicas/1/out/1.elf:1a000196 0000001e T data_init
+practicas/1/out/1.elf:1a0024fc 00000040 T TIMER1_IRQHandler
+practicas/1/out/1.elf:1a004480 00000020 T __sf_fake_stderr
+practicas/1/out/1.elf:1a00299c 00000024 T Chip_I2C_Init
+practicas/1/out/1.elf:1a0024a2 0000000a T UART2_IRQHandler
+practicas/1/out/1.elf:1a0025dc 00000010 T printEnter
+practicas/1/out/1.elf:1a003020 00000068 T Chip_Clock_GetMainPLLHz
+practicas/1/out/1.elf:1a0039f8 000000b4 T __ssputs_r
+practicas/1/out/1.elf:1a00414c 00000136 T gpioPinsInit
+practicas/1/out/1.elf:1a002470 0000001a T uartWriteByte
+practicas/1/out/1.elf:1a0033b8 00000012 T Chip_SSP_SetClockRate
+practicas/1/out/1.elf:1a002272 00000016 T gpioToggle
+practicas/1/out/1.elf:1a001ff4 0000000a T GPIO2_IRQHandler
+practicas/1/out/1.elf:1a003fb0 T memchr
+practicas/1/out/1.elf:1a0015b0 00000080 T xTaskCheckForTimeOut
+practicas/1/out/1.elf:1a0038a8 0000009c T _free_r
+practicas/1/out/1.elf:1a0030f0 00000024 T Chip_Clock_GetBaseClock
+practicas/1/out/1.elf:10000130 B _bss
+practicas/1/out/1.elf:1a002c1c 00000032 T Chip_ADC_SetSampleRate
+practicas/1/out/1.elf:1a001158 00000010 T vTaskSuspendAll
+practicas/1/out/1.elf:1a000194 00000002 W I2S1_IRQHandler
+practicas/1/out/1.elf:1a0033cc 0000003e T Chip_SSP_SetBitRate
+practicas/1/out/1.elf:1a000c60 00000026 T uxListRemove
+practicas/1/out/1.elf:1a003234 00000002 T Chip_GPIO_Init
+practicas/1/out/1.elf:1a004308 00000004 T OscRateIn
+practicas/1/out/1.elf:1a0023f4 0000007c T uartInit
+practicas/1/out/1.elf:1a000fd4 0000007c T xTaskCreateStatic
+practicas/1/out/1.elf:10002e34 ? _end_noinit
+practicas/1/out/1.elf:10008000 A _vStackTop
+practicas/1/out/1.elf:1a00387c 0000002a T strncpy
+practicas/1/out/1.elf:1a0013e0 000000c4 T vTaskSwitchContext
+practicas/1/out/1.elf:1a000194 00000002 W SSP1_IRQHandler
+practicas/1/out/1.elf:1a000708 000000aa T xQueueGenericCreateStatic
+practicas/1/out/1.elf:1a0014d4 00000038 T vTaskPlaceOnEventListRestricted
+practicas/1/out/1.elf:1a000178 T __bss_section_table_end
+practicas/1/out/1.elf:1a002034 00000194 T gpioInit
+practicas/1/out/1.elf:1a000c88 00000018 T vApplicationGetIdleTaskMemory
+practicas/1/out/1.elf:1a0018e4 0000006c T xTimerGenericCommand
+practicas/1/out/1.elf:1a000cb8 00000002 T vApplicationStackOverflowHook
+practicas/1/out/1.elf:1a0037c8 00000002 W __aeabi_ldiv0
+practicas/1/out/1.elf:1a000194 00000002 W USB0_IRQHandler
+practicas/1/out/1.elf:1a000194 00000002 W GPIO3_IRQHandler
+practicas/1/out/1.elf:1a004082 00000002 T __malloc_lock
+practicas/1/out/1.elf:1a000194 00000002 W SCT_IRQHandler
+practicas/1/out/1.elf:1a0003b0 00000012 T QMPool_getMin
+practicas/1/out/1.elf:1a0044a0 00000020 T __sf_fake_stdin
+practicas/1/out/1.elf:1a002ecc 0000001c T Chip_Clock_GetDividerDivisor
+practicas/1/out/1.elf:1a0002fc T __CRP_WORD_START__
+practicas/1/out/1.elf:1a00382a 00000010 T memset
+practicas/1/out/1.elf:1a000186 00000002 W MemManage_Handler
+practicas/1/out/1.elf:1a000438 0000006c T main
+practicas/1/out/1.elf:1a000194 00000002 W WDT_IRQHandler
+practicas/1/out/1.elf:1a000c2c 00000034 T vListInsert
+practicas/1/out/1.elf:2000c000 A __top_RamAHB16
+practicas/1/out/1.elf:1008a000 A __top_RamLoc40
+practicas/1/out/1.elf:1a001c60 00000024 T SVC_Handler
+practicas/1/out/1.elf:10000008 00000004 D DWT_CTRL
+practicas/1/out/1.elf:1a001824 00000070 T xTimerCreateTimerTask
+practicas/1/out/1.elf:1a003944 000000b4 T _malloc_r
+practicas/1/out/1.elf:1a0023c8 00000018 T uartTxReady
+practicas/1/out/1.elf:1a000194 00000002 W GPIO7_IRQHandler
+practicas/1/out/1.elf:1a003120 0000003c T Chip_Clock_EnableOpts
+practicas/1/out/1.elf:1a002ee8 000000b8 T Chip_Clock_GetClockInputHz
+practicas/1/out/1.elf:1a0031dc 00000058 T fpuInit
+practicas/1/out/1.elf:1a002fa0 00000080 T Chip_Clock_CalcMainPLLValue
+practicas/1/out/1.elf:1a0028b0 0000001c T SystemInit
+practicas/1/out/1.elf:1a000194 00000002 W SPIFI_IRQHandler
+practicas/1/out/1.elf:1a000194 00000002 W QEI_IRQHandler
+practicas/1/out/1.elf:1a000150 T __bss_section_table
+practicas/1/out/1.elf:1a0021c8 00000056 T gpioWrite
+practicas/1/out/1.elf:1a001298 000000f8 T xTaskResumeAll
+practicas/1/out/1.elf:1a00383c 00000040 T sprintf
+practicas/1/out/1.elf:1a0010b8 000000a0 T vTaskStartScheduler
+practicas/1/out/1.elf:1a002bdc 00000040 T Chip_ADC_Init
+practicas/1/out/1.elf:1a0028cc 00000038 T Board_SetupMuxing
+practicas/1/out/1.elf:1a00034c 0000001e T QMPool_put
+practicas/1/out/1.elf:1a002ab0 000000e8 T Chip_UART_SetBaudFDR
+practicas/1/out/1.elf:10002e28 00000008 B tickRateMS
+practicas/1/out/1.elf:1a000194 00000002 W ETH_IRQHandler
+practicas/1/out/1.elf:1a003c98 000000ea T _printf_common
+practicas/1/out/1.elf:10002d68 00000004 B tickHookFunction
+practicas/1/out/1.elf:100000cc 00000004 D _impure_ptr
+practicas/1/out/1.elf:10000000 ? _end_uninit_RESERVED
+practicas/1/out/1.elf:1a003aac 000001ec T _svfiprintf_r
+practicas/1/out/1.elf:1a0023e0 00000014 T uartTxWrite
+practicas/1/out/1.elf:1a000194 00000002 W CAN0_IRQHandler
+practicas/1/out/1.elf:10000000 D _data
+practicas/1/out/1.elf:1a001630 0000000c T vTaskMissedYield
+practicas/1/out/1.elf:10002e34 B _pvHeapStart
+practicas/1/out/1.elf:1a000178 T __section_table_end
+practicas/1/out/1.elf:1a00340c 00000038 T Chip_SSP_Init
+practicas/1/out/1.elf:1a000b80 00000028 T vQueueAddToRegistry
+practicas/1/out/1.elf:1a000194 00000002 W GINT0_IRQHandler
+practicas/1/out/1.elf:1a001174 00000124 T xTaskIncrementTick
+practicas/1/out/1.elf:1a000194 00000002 W DAC_IRQHandler
+practicas/1/out/1.elf:1a002830 00000024 T Board_Debug_Init
+practicas/1/out/1.elf:1a000664 00000080 T xQueueGenericReset
+practicas/1/out/1.elf:10000130 D _edata
+practicas/1/out/1.elf:1a00297c 00000020 T Chip_I2C_EventHandler
+practicas/1/out/1.elf:1a000194 00000002 W M0SUB_IRQHandler
+practicas/1/out/1.elf:1a001050 00000066 T xTaskCreate
+practicas/1/out/1.elf:1a003238 00000154 T Chip_SetupCoreClock
+practicas/1/out/1.elf:1a001fe0 0000000a T GPIO0_IRQHandler
+practicas/1/out/1.elf:1a000000 00000114 T g_pfnVectors
+practicas/1/out/1.elf:1a003444 00000084 T ResetISR
+practicas/1/out/1.elf:1a002c5c 00000014 T SystemCoreClockUpdate
+practicas/1/out/1.elf:1a000194 00000002 W DMA_IRQHandler
+practicas/1/out/1.elf:1a001390 00000050 T vTaskDelay
+practicas/1/out/1.elf:1a000194 00000002 W EVRT_IRQHandler
+practicas/1/out/1.elf:1b080000 A __top_MFlashB512
+practicas/1/out/1.elf:1a0044c0 00000020 T __sf_fake_stdout
+practicas/1/out/1.elf:1a00383c 00000040 T siprintf
+practicas/1/out/1.elf:1a000300 0000004c T QMPool_init
+practicas/1/out/1.elf:1a00163c 00000020 T xTaskGetSchedulerState
+practicas/1/out/1.elf:1a0037c8 00000002 W __aeabi_idiv0
+practicas/1/out/1.elf:10002dc8 00000014 B mem_pool_1
+practicas/1/out/1.elf:1a000188 00000002 W BusFault_Handler
+practicas/1/out/1.elf:1a001c2c 0000002c T pxPortInitialiseStack
+practicas/1/out/1.elf:1a003d84 00000224 T _printf_i
+practicas/1/out/1.elf:1a00315c 00000034 T Chip_Clock_Enable
+practicas/1/out/1.elf:1a0024ac 0000000a T UART3_IRQHandler
+practicas/1/out/1.elf:10002dc4 00000004 B __malloc_sbrk_start
+practicas/1/out/1.elf:1a000194 00000002 W MCPWM_IRQHandler
+practicas/1/out/1.elf:1a001894 0000004e T xTimerCreateStatic
+practicas/1/out/1.elf:1a000194 00000002 W M0APP_IRQHandler
+practicas/1/out/1.elf:1a00221e 00000054 T gpioRead
+practicas/1/out/1.elf:1a0025ec 000000f4 T boardInit
+practicas/1/out/1.elf:1a001c90 00000044 T vPortEnterCritical
+practicas/1/out/1.elf:10002dc0 00000004 B __malloc_free_list
+practicas/1/out/1.elf:1a000194 00000002 W GINT1_IRQHandler
+practicas/1/out/1.elf:1a0030ac 00000044 T Chip_Clock_SetBaseClock
+practicas/1/out/1.elf:1a001f58 0000001c T cyclesCounterInit
+practicas/1/out/1.elf:1a000194 00000002 W GPIO4_IRQHandler
+practicas/1/out/1.elf:1a002970 0000000c T Board_SystemInit
