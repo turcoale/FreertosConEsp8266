@@ -1,3 +1,2 @@
-vfs_semihost.o: \
- /home/nbusuario11/esp/esp-idf/components/vfs/vfs_semihost.c
-/home/nbusuario11/esp/esp-idf/components/vfs/./vfs_semihost.c:
+vfs_semihost.o: /home/turco/esp/esp-idf/components/vfs/vfs_semihost.c
+/home/turco/esp/esp-idf/components/vfs/./vfs_semihost.c:

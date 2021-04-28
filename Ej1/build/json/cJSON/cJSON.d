@@ -1,6 +1,5 @@
-cJSON/cJSON.o: \
- /home/nbusuario11/esp/esp-idf/components/json/cJSON/cJSON.c \
- /home/nbusuario11/esp/esp-idf/components/json/cJSON/cJSON.h
+cJSON/cJSON.o: /home/turco/esp/esp-idf/components/json/cJSON/cJSON.c \
+ /home/turco/esp/esp-idf/components/json/cJSON/cJSON.h
 
-/home/nbusuario11/esp/esp-idf/components/json/cJSON/cJSON.h:
-/home/nbusuario11/esp/esp-idf/components/json/cJSON/cJSON.c:
+/home/turco/esp/esp-idf/components/json/cJSON/cJSON.h:
+/home/turco/esp/esp-idf/components/json/cJSON/cJSON.c:
